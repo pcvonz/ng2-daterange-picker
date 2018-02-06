@@ -53,7 +53,7 @@ export class DatePickerComponent implements OnInit, OnChanges {
   @Input() disabled: boolean;
   @Input() accentColor: string;
   @Input() altInputStyle: boolean;
-  @Input() dateFormat: string | DateFormatFunction;
+  @Input() private dateFormat: string | DateFormatFunction;
   @Input() fontFamily: string;
   @Input() rangeStart: Date;
   @Input() rangeEnd: Date;
